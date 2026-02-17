@@ -1,190 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Bhagwan Singh Verma | Senior Android Engineer</title>
-
-<style>
-:root{
-  --bg:#0f172a;
-  --card:#1e293b;
-  --accent:#6366f1;
-  --text:#f1f5f9;
-  --muted:#94a3b8;
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family:system-ui, -apple-system, sans-serif;
-  background:var(--bg);
-  color:var(--text);
-}
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:30px 20px;
-}
-header{
-  text-align:center;
-  margin-bottom:40px;
-}
-h1{
-  margin:0;
-  font-size:36px;
-}
-.subtitle{
-  color:var(--muted);
-  margin-top:8px;
-}
-.contact{
-  margin-top:15px;
-  font-size:14px;
-}
-.section{
-  background:var(--card);
-  padding:20px;
-  border-radius:12px;
-  margin-bottom:25px;
-}
-h2{
-  margin-top:0;
-  color:var(--accent);
-}
-.job{
-  margin-bottom:20px;
-}
-.job h3{
-  margin:0;
-}
-.date{
-  font-size:13px;
-  color:var(--muted);
-}
-ul{
-  margin-top:8px;
-}
-.skills span{
-  display:inline-block;
-  background:rgba(99,102,241,0.15);
-  padding:6px 10px;
-  margin:5px;
-  border-radius:20px;
-  font-size:13px;
-}
-footer{
-  text-align:center;
-  margin-top:30px;
-  font-size:13px;
-  color:var(--muted);
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-<div class="container">
+    <header>
+        <nav class="topbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-  <h1>Bhagwan Singh Verma</h1>
-  <div class="subtitle">Senior Android Engineer</div>
-  <div class="contact">
-    📍 Indore, MP, India |
-    📞 +91 8959311437 |
-    ✉️ bhagwanverma11@gmail.com |
-    🔗 LinkedIn
-  </div>
-</header>
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Your brief introduction goes here.</p>
+    </section>
 
-<section class="section">
-<h2>Professional Summary</h2>
-<p>
-Senior Android Engineer with 8+ years of experience building scalable B2C mobile applications 
-and logistics platforms. Strong expertise in Kotlin, MVVM, Clean Architecture, CI/CD, 
-and system design. Proven impact in improving delivery efficiency, reducing transportation 
-costs, and increasing release stability through data-driven engineering practices.
-</p>
-</section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Details about your work experience.</p>
+    </section>
 
-<section class="section">
-<h2>Work Experience</h2>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>List of your projects.</p>
+    </section>
 
-<div class="job">
-<h3>Senior Android Engineer – udaan.com</h3>
-<div class="date">Nov 2025 – Present</div>
-<ul>
-<li>Key contributor to Udaan Logistics platform supporting large-scale B2C operations.</li>
-<li>Designed and maintained Kotlin-based backend APIs for logistics workflows.</li>
-<li>Built Android & Flutter modules for internal delivery and warehouse teams.</li>
-<li>Implemented CI/CD pipelines and Canary deployments to improve release stability.</li>
-<li>Reduced critical production incidents by ~30% using tracing and log analysis.</li>
-<li><strong>Impact:</strong> Reduced transportation costs by 15% and improved on-time delivery by 25%.</li>
-</ul>
-</div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Outline your skills here.</p>
+    </section>
 
-<div class="job">
-<h3>Senior Android Engineer – Shopkirana Pvt Ltd</h3>
-<div class="date">Jan 2019 – Nov 2025</div>
-<ul>
-<li>Developed large-scale B2C e-commerce apps using Android & Flutter.</li>
-<li>Implemented real-time order tracking across logistics chain.</li>
-<li>Managed Play Store releases and production rollouts.</li>
-<li>Improved delivery transparency and accuracy by 15–20%.</li>
-<li><strong>Products:</strong> Direct | Zila | Last Mile | Scalup Fintech</li>
-</ul>
-</div>
+    <section id="education">
+        <h2>Education</h2>
+        <p>Information about your educational background.</p>
+    </section>
 
-<div class="job">
-<h3>Android Developer – Yash Computech Pvt Ltd</h3>
-<div class="date">Feb 2017 – Mar 2018</div>
-<ul>
-<li>Built e-commerce wine sales mobile application.</li>
-<li>Improved transaction efficiency by 20% via UX enhancements.</li>
-</ul>
-</div>
-
-<div class="job">
-<h3>Android Developer – FxBytes Pvt Ltd</h3>
-<div class="date">Nov 2016 – Feb 2017</div>
-<ul>
-<li>Developed site project management application.</li>
-<li>Implemented SQLite-based offline storage.</li>
-</ul>
-</div>
-
-</section>
-
-<section class="section">
-<h2>Technical Skills</h2>
-<div class="skills">
-<span>Kotlin</span>
-<span>Java</span>
-<span>Android</span>
-<span>Flutter</span>
-<span>React Native</span>
-<span>MVVM</span>
-<span>Clean Architecture</span>
-<span>Jetpack Compose</span>
-<span>Coroutines / Flow</span>
-<span>Retrofit</span>
-<span>Room</span>
-<span>CI/CD</span>
-<span>Firebase</span>
-<span>System Design</span>
-<span>AAOS</span>
-<span>AIDL</span>
-</div>
-</section>
-
-<section class="section">
-<h2>Education</h2>
-<p><strong>B.E in Computer Science Engineering</strong><br>
-Indore Institute of Science and Technology (2011 – 2015)</p>
-</section>
-
-<footer>
-© 2026 Bhagwan Singh Verma | Senior Android Engineer
-</footer>
-
-</div>
+    <footer>
+        <p>&copy; 2026 Your Name</p>
+    </footer>
 </body>
 </html>
